@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid {
+    background-color: rgb(4, 99, 136);
+}
+.container-lg {
+    background-color: bisque;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
