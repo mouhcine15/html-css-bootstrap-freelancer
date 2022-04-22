@@ -18,9 +18,8 @@
 .white {
     color: white;
 }
-
 .azzurro {
-    background-color: aquamarine;
+    background-color: rgb(63, 214, 164);
 }
 .center {
     display: flex;
@@ -29,4 +28,12 @@
 }
 .back-white {
     background-color: white;
+}
+#avatar {
+    max-width: 300px;
+}
+.immagini {
+    max-width: 420px;
+    border-radius: 15px;
+    margin: 10px;
 }
