@@ -4,16 +4,21 @@
     box-sizing: border-box;
 }
 
-/* STILE HEADER  */
 .container-fluid {
     background-color: rgb(4, 99, 136);
 }
 .row {
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+.head-menu {
+    font-size: 10px;
+}
+.white {
+    color: white;
 }
 
-/* STILE MAIN  */
 .azzurro {
     background-color: aquamarine;
 }
@@ -22,6 +27,6 @@
     flex-direction: row;
     justify-content: center;
 }
-.white {
+.back-white {
     background-color: white;
 }
