@@ -69,12 +69,17 @@
     justify-content: center;
 }
 
-/* .row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-} */
-
 #foot-footer {
-    width: 110%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pad-sec {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.text-about {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
