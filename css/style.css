@@ -4,32 +4,38 @@
     box-sizing: border-box;
 }
 
-
+/* stile sfondo/colori */
 .blue-back {
     background-color: rgb(4, 99, 136);
-}
-.row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.head-menu {
-    font-size: 10px;
-}
-.white {
-    color: white;
-}
-.azzurro {
-    background-color: rgb(63, 214, 164);
-}
-.center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 .back-white {
     background-color: white;
 }
+.back-black {
+    background-color: black;
+}
+.azzurro {
+    background-color: rgb(63, 214, 164);
+}
+.white {
+    color: white;
+}
+
+/* stile stella e righe */
+.divisorio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 0;
+}
+.righe {
+    height: 3px;
+    width: 8%;
+    border-radius: 5px;
+    margin: 0 1%;
+}
+
+/* stile immagini  */
 #avatar {
     max-width: 350px;
 }
@@ -38,3 +44,16 @@
     border-radius: 15px;
     margin: 10px;
 }
+
+
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
